@@ -36,6 +36,7 @@ pip install shiny pandas numpy plotly
    shiny run --reload --launch-browser --port=0 app.py
 
 4. Interaction Notes
+   
 If an unsupported file type is uploaded, the app shows:
 "Error loading file: error_message" for 5 seconds.
 Clean and Reset do nothing until a dataset is uploaded.
